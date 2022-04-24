@@ -1,7 +1,7 @@
 from selenium import webdriver
 import time
 
-Driver = webdriver.Chrome(executable_path="../cd_100.0.4896.60.exe")
+Driver = webdriver.Chrome(executable_path="../chromedriver.exe")
 
 id = input("식별 코드 >> ")
 url = "https://sign.dcinside.com/login?s_url=https%3A%2F%2Fgallog.dcinside.com%2F" + id
